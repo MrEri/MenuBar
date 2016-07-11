@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colorChoose</key>
+	<array>
+		<string>black</string>
+		<string>darkGray</string>
+		<string>lightGray</string>
+		<string>white</string>
+		<string>gray</string>
+		<string>red</string>
+		<string>green</string>
+		<string>blue</string>
+		<string>cyan</string>
+		<string>yellow</string>
+		<string>magenta</string>
+		<string>orange</string>
+		<string>purple</string>
+		<string>brown</string>
+	</array>
+	<key>color</key>
+	<string>purple</string>
+	<key>channelArr</key>
+	<array>
+		<string>ok_sub_spotcny_btc_ticker</string>
+		<string>ok_sub_spotcny_ltc_ticker</string>
+		<string>ok_sub_spotusd_btc_ticker</string>
+		<string>ok_sub_spotusd_ltc_ticker</string>
+		<string>ok_sub_futureusd_btc_ticker_this_week</string>
+		<string>ok_sub_futureusd_btc_ticker_next_week</string>
+		<string>ok_sub_futureusd_btc_ticker_quarter</string>
+		<string>ok_sub_futureusd_ltc_ticker_this_week</string>
+		<string>ok_sub_futureusd_ltc_ticker_next_week</string>
+		<string>ok_sub_futureusd_ltc_ticker_quarter</string>
+	</array>
+</dict>
+</plist>

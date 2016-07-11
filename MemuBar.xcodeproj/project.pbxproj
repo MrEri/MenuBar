@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2289B01C858F8E00F6CAF6 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2289AF1C858F7700F6CAF6 /* Reachability.framework */; };
+		CE2289B11C858F8E00F6CAF6 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE2289AF1C858F7700F6CAF6 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE8ADDF71C474D0200EEF1C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8ADDF61C474D0200EEF1C9 /* AppDelegate.swift */; };
+		CE8ADDFC1C474D0200EEF1C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8ADDFA1C474D0200EEF1C9 /* MainMenu.xib */; };
+		CE8ADE181C474E2300EEF1C9 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8ADE111C474D5900EEF1C9 /* Starscream.framework */; };
+		CE8ADE191C474E2300EEF1C9 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE8ADE111C474D5900EEF1C9 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEDF68891C4DFF4A00C78C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF68881C4DFF4A00C78C3E /* Assets.xcassets */; };
+		CEFAD8301C54A0EB00E0AFCD /* WebsocketConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAD82F1C54A0EB00E0AFCD /* WebsocketConnect.swift */; };
+		CEFE565C1C980E4700E7E26B /* loadfile.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFE565B1C980E4700E7E26B /* loadfile.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2289AC1C858F7700F6CAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2289A71C858F7700F6CAF6 /* Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86E2EFD41B4EE3C9002D66BB;
+			remoteInfo = iOSReachability;
+		};
+		CE2289AE1C858F7700F6CAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2289A71C858F7700F6CAF6 /* Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86E2EFF21B4EE3DE002D66BB;
+			remoteInfo = MacOSReachability;
+		};
+		CE2289B21C858F8E00F6CAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2289A71C858F7700F6CAF6 /* Framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 86E2EFF11B4EE3DE002D66BB;
+			remoteInfo = MacOSReachability;
+		};
+		CE8ADE0C1C474D5900EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = Starscream;
+		};
+		CE8ADE0E1C474D5900EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = StarscreamTests;
+		};
+		CE8ADE101C474D5900EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = StarscreamOSX;
+		};
+		CE8ADE121C474D5900EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = StarscreamOSXTests;
+		};
+		CE8ADE141C474D5900EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = StarscreamTv;
+		};
+		CE8ADE161C474D5900EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = StarscreamTvTests;
+		};
+		CE8ADE1A1C474E2300EEF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C3E35E19E48FF1009FC285;
+			remoteInfo = StarscreamOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE8ADE1C1C474E2300EEF1C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE8ADE191C474E2300EEF1C9 /* Starscream.framework in Embed Frameworks */,
+				CE2289B11C858F8E00F6CAF6 /* Reachability.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE2289A71C858F7700F6CAF6 /* Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Framework.xcodeproj; path = MemuBar/Reachability/Framework/Framework.xcodeproj; sourceTree = "<group>"; };
+		CE8ADDF31C474D0200EEF1C9 /* MemuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8ADDF61C474D0200EEF1C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8ADDFB1C474D0200EEF1C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE8ADDFD1C474D0200EEF1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = MemuBar/Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
+		CEDF68881C4DFF4A00C78C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFAD82F1C54A0EB00E0AFCD /* WebsocketConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsocketConnect.swift; sourceTree = "<group>"; };
+		CEFE565B1C980E4700E7E26B /* loadfile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = loadfile.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8ADDF01C474D0200EEF1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8ADE181C474E2300EEF1C9 /* Starscream.framework in Frameworks */,
+				CE2289B01C858F8E00F6CAF6 /* Reachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1373A81C55FD4400979CBA /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				CE8ADDF61C474D0200EEF1C9 /* AppDelegate.swift */,
+				CE8ADDFA1C474D0200EEF1C9 /* MainMenu.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		CE2289A81C858F7700F6CAF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2289AD1C858F7700F6CAF6 /* Reachability.framework */,
+				CE2289AF1C858F7700F6CAF6 /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8ADDEA1C474D0200EEF1C9 = {
+			isa = PBXGroup;
+			children = (
+				CE8ADDF51C474D0200EEF1C9 /* MemuBar */,
+				CE8ADDF41C474D0200EEF1C9 /* Products */,
+				CE2289A71C858F7700F6CAF6 /* Framework.xcodeproj */,
+				CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8ADDF41C474D0200EEF1C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8ADDF31C474D0200EEF1C9 /* MemuBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8ADDF51C474D0200EEF1C9 /* MemuBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE1373A81C55FD4400979CBA /* GUI */,
+				CEFAD8291C54A0BA00E0AFCD /* Connect */,
+				CE8ADDFD1C474D0200EEF1C9 /* Info.plist */,
+				CEFE565B1C980E4700E7E26B /* loadfile.plist */,
+				CEDF68881C4DFF4A00C78C3E /* Assets.xcassets */,
+			);
+			path = MemuBar;
+			sourceTree = "<group>";
+		};
+		CE8ADE041C474D5900EEF1C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8ADE0D1C474D5900EEF1C9 /* Starscream.framework */,
+				CE8ADE0F1C474D5900EEF1C9 /* StarscreamTests.xctest */,
+				CE8ADE111C474D5900EEF1C9 /* Starscream.framework */,
+				CE8ADE131C474D5900EEF1C9 /* StarscreamOSXTests.xctest */,
+				CE8ADE151C474D5900EEF1C9 /* Starscream.framework */,
+				CE8ADE171C474D5900EEF1C9 /* StarscreamTvTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFAD8291C54A0BA00E0AFCD /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAD82F1C54A0EB00E0AFCD /* WebsocketConnect.swift */,
+			);
+			name = Connect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8ADDF21C474D0200EEF1C9 /* MemuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8ADE001C474D0200EEF1C9 /* Build configuration list for PBXNativeTarget "MemuBar" */;
+			buildPhases = (
+				CE8ADDEF1C474D0200EEF1C9 /* Sources */,
+				CE8ADDF01C474D0200EEF1C9 /* Frameworks */,
+				CE8ADDF11C474D0200EEF1C9 /* Resources */,
+				CE8ADE1C1C474E2300EEF1C9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8ADE1B1C474E2300EEF1C9 /* PBXTargetDependency */,
+				CE2289B31C858F8E00F6CAF6 /* PBXTargetDependency */,
+			);
+			name = MemuBar;
+			productName = MemuBar;
+			productReference = CE8ADDF31C474D0200EEF1C9 /* MemuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8ADDEB1C474D0200EEF1C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = coin;
+				TargetAttributes = {
+					CE8ADDF21C474D0200EEF1C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CE8ADDEE1C474D0200EEF1C9 /* Build configuration list for PBXProject "MemuBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8ADDEA1C474D0200EEF1C9;
+			productRefGroup = CE8ADDF41C474D0200EEF1C9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE2289A81C858F7700F6CAF6 /* Products */;
+					ProjectRef = CE2289A71C858F7700F6CAF6 /* Framework.xcodeproj */;
+				},
+				{
+					ProductGroup = CE8ADE041C474D5900EEF1C9 /* Products */;
+					ProjectRef = CE8ADE031C474D5900EEF1C9 /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE8ADDF21C474D0200EEF1C9 /* MemuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE2289AD1C858F7700F6CAF6 /* Reachability.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Reachability.framework;
+			remoteRef = CE2289AC1C858F7700F6CAF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE2289AF1C858F7700F6CAF6 /* Reachability.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Reachability.framework;
+			remoteRef = CE2289AE1C858F7700F6CAF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8ADE0D1C474D5900EEF1C9 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = CE8ADE0C1C474D5900EEF1C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8ADE0F1C474D5900EEF1C9 /* StarscreamTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamTests.xctest;
+			remoteRef = CE8ADE0E1C474D5900EEF1C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8ADE111C474D5900EEF1C9 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = CE8ADE101C474D5900EEF1C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8ADE131C474D5900EEF1C9 /* StarscreamOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamOSXTests.xctest;
+			remoteRef = CE8ADE121C474D5900EEF1C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8ADE151C474D5900EEF1C9 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = CE8ADE141C474D5900EEF1C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8ADE171C474D5900EEF1C9 /* StarscreamTvTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamTvTests.xctest;
+			remoteRef = CE8ADE161C474D5900EEF1C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8ADDF11C474D0200EEF1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF68891C4DFF4A00C78C3E /* Assets.xcassets in Resources */,
+				CE8ADDFC1C474D0200EEF1C9 /* MainMenu.xib in Resources */,
+				CEFE565C1C980E4700E7E26B /* loadfile.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8ADDEF1C474D0200EEF1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFAD8301C54A0EB00E0AFCD /* WebsocketConnect.swift in Sources */,
+				CE8ADDF71C474D0200EEF1C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2289B31C858F8E00F6CAF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MacOSReachability;
+			targetProxy = CE2289B21C858F8E00F6CAF6 /* PBXContainerItemProxy */;
+		};
+		CE8ADE1B1C474E2300EEF1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarscreamOSX;
+			targetProxy = CE8ADE1A1C474E2300EEF1C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8ADDFA1C474D0200EEF1C9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8ADDFB1C474D0200EEF1C9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8ADDFE1C474D0200EEF1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8ADDFF1C474D0200EEF1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE8ADE011C474D0200EEF1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MemuBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coin.MemuBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE8ADE021C474D0200EEF1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MemuBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coin.MemuBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8ADDEE1C474D0200EEF1C9 /* Build configuration list for PBXProject "MemuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8ADDFE1C474D0200EEF1C9 /* Debug */,
+				CE8ADDFF1C474D0200EEF1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8ADE001C474D0200EEF1C9 /* Build configuration list for PBXNativeTarget "MemuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8ADE011C474D0200EEF1C9 /* Debug */,
+				CE8ADE021C474D0200EEF1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8ADDEB1C474D0200EEF1C9 /* Project object */;
+}

@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7070BA961BCA286ED2393408B1E3D78393C99B33" : 0,
+    "C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "325FCB4C-B2E6-4F5D-A214-AF46CEA149FB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7070BA961BCA286ED2393408B1E3D78393C99B33" : "MemuBar\/1.0\/MemuBar\/Reachability\/",
+    "C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D" : "MemuBar\/1.0\/MemuBar\/Starscream\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MemuBar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "1.0\/MemuBar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tonymillion\/Reachability.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7070BA961BCA286ED2393408B1E3D78393C99B33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/daltoniam\/Starscream.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C86D95FCAEB1FEA0694B5D4AC7241D7E5F42F31D"
+    }
+  ]
+}
